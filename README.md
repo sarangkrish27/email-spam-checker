@@ -109,7 +109,3 @@ Paste any email text into the text box and click **Check email** to get a predic
 
 - `preprocessing.py` must be imported the same way in both the notebook and the app — `joblib` needs to resolve `clean_text`/`clean_series` by their import path to unpickle the saved pipeline.
 - The model was trained on a 2000s-era Enron/marketing email dataset; performance on modern email styles (e.g. phishing, promotional newsletters) is untested and may differ.
-
-## License
-
-Add a license of your choice (e.g. MIT) here.
